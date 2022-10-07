@@ -13,3 +13,5 @@ select first_name, last_name from patients where weight between 100 and 120;
 update patients set allergies = 'NKA' where allergies is null;
 
 select concat(first_name,' ', last_name) as FullName from patients;
+
+select first_name, last_name, province_name from patients join province_names on patients.province_id = province_names.province_id;
