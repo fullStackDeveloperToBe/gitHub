@@ -1,1 +1,15 @@
 git
+
+SELECT * FROM patients;
+
+select first_name, last_name, gender from patients where gender = 'M';
+
+select first_name, last_name from patients where allergies is null;
+
+select first_name from patients where first_name like 'C%';
+
+select first_name, last_name from patients where weight between 100 and 120;
+
+update patients set allergies = 'NKA' where allergies is null;
+
+select concat(first_name,' ', last_name) as FullName from patients;
