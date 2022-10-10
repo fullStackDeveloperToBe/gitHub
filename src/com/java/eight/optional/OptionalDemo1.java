@@ -1,3 +1,5 @@
+package com.java.eight.optional;
+
 import java.util.Optional;
 
 public class OptionalDemo1 {
@@ -17,6 +19,13 @@ public class OptionalDemo1 {
         String opt4 = Optional.ofNullable(n).orElse("orElse for else condition");
         String opt5 = opt3.get();
         System.out.println(opt4+" "+opt5);
+
+        Customer customer = new Customer(1, "Arun", null,12000);
+        System.out.println(customer.getCustName());
+        Optional<String> cust = Optional.ofNullable(customer.getCustEmail());
+//        if(cust.isPresent()) {
+            System.out.println(cust.orElse("test.mail.com"));
+        //}
 
 
     }
