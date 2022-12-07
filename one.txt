@@ -22,7 +22,7 @@
     },
     {
         "id": 3,
-        "name": "Alia",
+        "name": "branchTwo",
         "employeeId": null,
         "emailId": "alia@gmail.com",
         "phone": "987654321",
