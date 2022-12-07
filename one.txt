@@ -11,7 +11,7 @@
     },
     {
         "id": 009,
-        "name": "carl",
+        "name": "branchTwo",
         "employeeId": "IND001",
         "emailId": "curl@gmail.com",
         "phone": "987654361",
@@ -22,7 +22,7 @@
     },
     {
         "id": 3,
-        "name": "Alia",
+        "name": "branchTwo",
         "employeeId": null,
         "emailId": "alia@gmail.com",
         "phone": "987654321",
