@@ -12,7 +12,7 @@
     {
         "id": 009,
         "name": "carl",
-        "employeeId": "IND001",
+        "employeeId": "branchTwo",
         "emailId": "curl@gmail.com",
         "phone": "987654361",
         "qualification": "B.Sc",
