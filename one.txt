@@ -31,4 +31,3 @@
         "skills": "bse",
         "comments": "hai"
     }
-gitHub
