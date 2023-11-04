@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   deploy:
-    name: Deploy
+    name: GitHub Actions
     runs-on: ubuntu-latest
     environment: production
 
